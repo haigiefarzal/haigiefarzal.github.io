@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>elsewhere — a private archive</title>
+    <meta name="description" content="haigiefarzal's corner of the internet: songs, films, books, manga, games and things found between tabs." />
+    <meta name="theme-color" content="#0f0d0b" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content="elsewhere — a private archive" />
+    <meta property="og:description" content="songs, films, books, games. i have a few things to say." />
+    <meta property="og:image" content="room-poster.webp" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/pagella-regular.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="fonts/source-code-pro-regular.ttf" as="font" type="font/ttf" crossorigin />
+    <style>
+      @font-face { font-family: 'Pagella'; src: local('TeX Gyre Pagella'), url('fonts/pagella-regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+      @font-face { font-family: 'Pagella'; src: local('TeX Gyre Pagella Italic'), url('fonts/pagella-italic.otf') format('opentype'); font-weight: 400; font-style: italic; font-display: swap; }
+      @font-face { font-family: 'Catalogue Mono'; src: local('Source Code Pro'), url('fonts/source-code-pro-regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+      #backdrop { background-image: url('room-poster.webp'); }
+    </style>
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+  <body>
+    <div id="backdrop" aria-hidden="true"></div>
+    <canvas id="room" aria-hidden="true"></canvas>
+    <div id="app"></div>
+    <noscript>
+      <div class="noscript">
+        <p>elsewhere is haigiefarzal’s private archive. it needs javascript to open the room and the index.</p>
+        <p>
+          meanwhile: <a href="https://www.tiktok.com/@haigiefarzald">tiktok</a> /
+          <a href="https://open.spotify.com/user/fuj3vn4zhv1q9yl7w3gg2r2qp">spotify</a> /
+          <a href="https://discord.com/users/856604473530122241">discord</a> /
+          <a href="https://letterboxd.com/haigiefarzal/">letterboxd</a> /
+          <a href="https://github.com/haigiefarzal">github</a>
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="./assets/main.js"></script>
+  </body>
+</html>
